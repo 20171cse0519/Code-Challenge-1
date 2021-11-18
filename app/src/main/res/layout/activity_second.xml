@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/prodDetail"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:textColor="#9C27B0"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/cartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="Add to cart" />
+
+    <Button
+        android:id="@+id/incrQty"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="500dp"
+        android:text="+"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/qty"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="505dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:textSize="20sp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/decrQty"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        android:text="-"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
